@@ -31,7 +31,7 @@ class App extends Component {
 		let updatedWebsiteList = this.state.websites;
 		updatedWebsiteList.push(newWebsite);
 		this.setState({
-			characters: updatedWebsiteList
+			websites: updatedWebsiteList
 		});
 	};
 	onDelete = (currentWebsite) => {
